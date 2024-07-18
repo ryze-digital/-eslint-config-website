@@ -1,0 +1,17 @@
+{
+  "name": "@ryze-digital/eslint-config-website",
+  "description": "Enforces a consistent JavaScript code style for our website projects",
+  "license": "UNLICENSED",
+  "version": "0.1.0",
+  "author": "RYZE Digital GmbH <kontakt@ryze-digital.de> (https://www.ryze-digital.de/)",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-jsdoc": "^41.1.2"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "javascript"
+  ]
+}
