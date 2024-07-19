@@ -8,10 +8,10 @@ npm install @ryze-digital/eslint-config-website --save-dev
 
 ## Usage
 
-Add the following to your `.eslintrc.js`:
+Add the following to your `eslint.config.js`:
 
 ```js
-module.exports = {
-    extends: '@ryze-digital/eslint-config-website'
-}
+import config from '@ryze-digital/eslint-config-website';
+
+export default config;
 ```
