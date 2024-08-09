@@ -1,9 +1,9 @@
 # RYZE Digital ESLint rules
 
-## Installation
+## Install
 
 ```bash
-npm install @ryze-digital/eslint-config-website --save-dev
+npm i @ryze-digital/eslint-config-website --save-dev
 ```
 
 ## Usage
