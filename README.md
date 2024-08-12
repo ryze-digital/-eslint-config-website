@@ -1,4 +1,4 @@
-# RYZE Digital ESLint rules
+# RYZE Digital ESLint Rules
 
 ## Install
 
