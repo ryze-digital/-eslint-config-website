@@ -150,6 +150,9 @@ export default [
             'jsdoc/require-param-description': [
                 'off'
             ],
+            'jsdoc/jsdoc/require-property-description': [
+                'off'
+            ],
             'jsdoc/require-returns-description': [
                 'off'
             ]
