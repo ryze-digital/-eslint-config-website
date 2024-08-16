@@ -138,19 +138,7 @@ export default [
             'unicode-bom': [
                 'error',
                 'never'
-            ]
-        }
-    },
-    {
-        files: [
-            '**/*.test.js'
-        ],
-        languageOptions: {
-            globals: {
-                ...globals.jest
-            }
-        },
-        rules: {
+            ],
             'jsdoc/require-jsdoc': [
                 'warn', {
                     require: {
@@ -165,6 +153,16 @@ export default [
             'jsdoc/require-returns-description': [
                 'off'
             ]
+        }
+    },
+    {
+        files: [
+            '**/*.test.js'
+        ],
+        languageOptions: {
+            globals: {
+                ...globals.jest
+            }
         }
     }
 ];
